@@ -10,6 +10,7 @@ msg = b'Golden Chip Company'
 hash = int.from_bytes(sha512(msg).digest(), byteorder='big')
 signature = pow(hash, keyPair.d, keyPair.n)
 print(hash)
+print("conan")
 print("Signature: ", hex(signature))
 
 msg = b'Golden Chip Company'
