@@ -1,2 +1,1 @@
-print("mohammed")
-print("osman")
+ 
